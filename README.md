@@ -5,6 +5,7 @@ Instructions for configuring new macs to conform to Zane Shelby's personal prefe
 ### Disable the dashboard
 
     defaults write com.apple.dashboard mcx-disabled -boolean NO
+    killall Dock
     
 ### Have the dock show only running application
     
