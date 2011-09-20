@@ -10,3 +10,7 @@ Instructions for configuring new macs to conform to Zane Shelby's personal prefe
 ### Have the dock show only running application
     
     defaults write com.apple.dock static-only -bool TRUE
+
+### Add service for starting the screen saver
+
+    ln -s /Users/zane/Projects/mac-configuration.github.zane/Library/Services/Start\ Screen\ Saver.workflow /Users/zane/Library/Services
