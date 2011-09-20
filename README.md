@@ -2,6 +2,10 @@
 
 Instructions for configuring new macs to conform to Zane Shelby's personal preferences.
 
+### Install Inconsolata
+
+    curl -C - -O http://www.levien.com/type/myfonts/Inconsolata.otf && open Inconsolata.otf
+
 ### Disable the dashboard
 
     defaults write com.apple.dashboard mcx-disabled -boolean NO
